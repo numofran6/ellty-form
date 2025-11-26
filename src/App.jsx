@@ -1,10 +1,12 @@
-import { Button, Card, CardFooter } from './components';
+import { Button, Card, CardFooter, Divider } from './components';
 import './App.css';
 
 function App() {
 	return (
 		<>
-			<Card>
+      <Card>
+        <Divider />
+
 				<CardFooter>
 					<Button width={'100%'}>Done</Button>
 				</CardFooter>
