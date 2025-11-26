@@ -1,13 +1,16 @@
-import { Button } from './components'
-import './App.css'
+import { Button, Card, CardFooter } from './components';
+import './App.css';
 
 function App() {
-
-  return (
-    <>
-    <Button>Done</Button>
-    </>
-  )
+	return (
+		<>
+			<Card>
+				<CardFooter>
+					<Button width={'100%'}>Done</Button>
+				</CardFooter>
+			</Card>
+		</>
+	);
 }
 
-export default App
+export default App;
