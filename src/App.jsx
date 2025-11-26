@@ -1,10 +1,12 @@
-import { Button, Card, CardFooter, Divider } from './components';
+import { Button, Card, CardFooter, CheckboxControl, Divider } from './components';
 import './App.css';
 
 function App() {
 	return (
 		<>
       <Card>
+        <CheckboxControl label={'Page 1'} />
+
         <Divider />
 
 				<CardFooter>
