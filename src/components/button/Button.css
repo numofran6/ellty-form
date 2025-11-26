@@ -1,0 +1,28 @@
+.ellty-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	
+	min-height: 40px;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 4px;
+	outline: none;
+	
+	color: #1F2128;
+
+	font-size: 14px;
+	line-height: 130%;
+	
+	cursor: pointer;
+}
+
+.ellty-button:hover {
+	background: #FFD84D;
+}
+
+.ellty-button,
+.ellty-button:active {
+	background: #FFCE22;
+}
