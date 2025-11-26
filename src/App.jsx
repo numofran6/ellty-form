@@ -11,6 +11,8 @@ import {
 import './App.css';
 
 function App() {
+  const [selected, setSelected] = useState([]);
+
 	const options = [
 		{ label: 'Page 1', value: 'page-1' },
 		{ label: 'Page 2', value: 'page-2' },
@@ -20,8 +22,11 @@ function App() {
 		{ label: 'Page 6', value: 'page-6' },
 	];
 
-	const [selected, setSelected] = useState([]);
-
+  /**
+   * Toggle all checkboxes.
+   *
+   * @param {*} isChecked List of checked items. If empty, it means no items were selected.
+   */
 	const handleToggleAll = (isChecked) => {
 		if (isChecked) {
 			setSelected(options.map((option) => option.value));

@@ -1,5 +1,8 @@
-import './Divider.css'
+import './Divider.css';
 
+/**
+ * Divider Component.
+ */
 const Divider = ({ children, className = '', ...remainingProps }) => {
 	const props = {
 		...remainingProps,

@@ -1,5 +1,8 @@
 import './Card.css';
 
+/**
+ * Card Component.
+ */
 const Card = ({ children, className = '', ...remainingProps }) => {
 	const props = {
 		...remainingProps,

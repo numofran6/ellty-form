@@ -1,5 +1,8 @@
 import './Card.css';
 
+/**
+ * Card Footer Component.
+ */
 const CardFooter = ({ children, className = '', ...remainingProps }) => {
 	const props = {
 		...remainingProps,

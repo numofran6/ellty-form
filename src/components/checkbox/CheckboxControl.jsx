@@ -1,5 +1,8 @@
 import './CheckboxControl.css';
 
+/**
+ * Checkbox Control Component.
+ */
 const CheckboxControl = ({
 	id,
 	label,

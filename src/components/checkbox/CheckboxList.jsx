@@ -1,6 +1,9 @@
 import CheckboxControl from './CheckboxControl';
-import './CheckboxList.css'
+import './CheckboxList.css';
 
+/**
+ * Checkbox List Component.
+ */
 const CheckboxList = ({ options = [], selected = [], onChange }) => {
 	const handleToggle = (isChecked, value) => {
 		let updated;

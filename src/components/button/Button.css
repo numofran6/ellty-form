@@ -18,11 +18,11 @@
 	cursor: pointer;
 }
 
+.ellty-button:hover {
+	background: #FFD84D;
+}
+
 .ellty-button,
 .ellty-button:active {
 	background: #FFCE22;
-}
-
-.ellty-button:hover {
-	background: #FFD84D;
 }
